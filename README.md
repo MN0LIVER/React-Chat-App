@@ -1,3 +1,7 @@
+[Live Chat App](https://youthful-bartik-221ce4.netlify.app/)
+
+
+To build this site [chatengine.io](https://chatengine.io/) was used.
 
 In the project directory, you can run:
 
@@ -8,6 +12,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+There are several places where you will need your Project ID from [chatengine.io](https://chatengine.io/)
+Your Project ID is found on the settings page of the project under API Keys.
+It will be utilized in the App.js and LoginForm.jsx files
+
+![Screenshot of App.js](.chat_app/photos/app_projectid.PNG)
 
 ### `npm test`
 
