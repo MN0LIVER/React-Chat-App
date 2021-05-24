@@ -17,7 +17,7 @@ There are several places where you will need your Project ID from [chatengine.io
 Your Project ID is found on the settings page of the project under API Keys.
 It will be utilized in the App.js and LoginForm.jsx files
 
-![Screenshot of App.js](./chat_app/photos/app_projectid.PNG)
+![Screenshot of App.js](./photos/app_projectid.PNG)
 
 ### `npm test`
 
