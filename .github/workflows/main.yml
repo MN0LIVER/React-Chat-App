@@ -49,7 +49,7 @@ jobs:
         run: tar -xzvf build.tar.gz
 
       - name: Deploying to Netlify @ https://youthful-bartik-221ce4.netlify.app/
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/master'
         uses: South-Paw/action-netlify-deploy@v1.2.0
         with:
           github-token: ${{ secrets.AUTH_TOKEN }}
